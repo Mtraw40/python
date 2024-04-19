@@ -38,7 +38,7 @@ class Television:
 
     def channel_down(self):
         """
-        Turns television to the pervious channel (down) -
+        Turns television to the previous channel (down) -
         """
         if self.__status:
             if self.__channel > Television.MIN_CHANNEL:
